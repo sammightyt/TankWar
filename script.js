@@ -44,20 +44,15 @@ Tank.prototype.draw = function () {
  }
 
  Tank.prototype.shoot = function () {
+	 
 	 this.bullets.push(new Bullet(this.x + 60, this.y + 21.5));
  }
 
  
 
 function Game(){
-	this.tank = new Tank(10,10) 
-}
-
-Game.prototype.run = function () {
-	this.interval = setInterval(function(){
-		ctx.clearRect(0,0,canvas.width,canvas.height)
-		this.tank.draw();
-		document.addEventListener("keydown",(e) => {
+	this.tank = new Tank(10,10);
+	document.addEventListener("keydown",(e) => {
 		var x = e.keyCode;
 		if(x == 40){
 			this.tank.moveDown();
@@ -78,7 +73,14 @@ Game.prototype.run = function () {
 		
 	
 	  
-	})
+	});
+}
+
+Game.prototype.run = function () {
+	this.interval = setInterval(function(){
+		ctx.clearRect(0,0,canvas.width,canvas.height)
+		this.tank.draw();
+		
 	
     for (var i = 0; i < this.tank.bullets.length; i++) {
 			this.tank.bullets[i].draw();
