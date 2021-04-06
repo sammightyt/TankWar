@@ -188,7 +188,7 @@ Game.prototype.run = function () {
 ctx.font = "20px Comic Sans MS";
 ctx.fillStyle = "green";
 ctx.textAlign = "center";
-ctx.fillText(`Shut Up Samhith ${stage}`, canvas.width / 2, canvas.height / 2);
+ctx.fillText(`TankWars ${stage}`, canvas.width / 2, canvas.height / 2);
 ctx.fillStyle = "red";
 ctx.font = "10px Permanent Marker";
 ctx.fillText("Click to begin!", (canvas.width / 2) + 5, (canvas.height / 2) + 20)
