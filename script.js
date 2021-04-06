@@ -21,9 +21,7 @@ function Tank(x, y, which) {
 }
 
 Tank.prototype.moveEnemy = function () {
-
   this.y = enemyY;
-
 }
 
 function Bullet(x, y) {
