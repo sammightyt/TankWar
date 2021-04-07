@@ -48,7 +48,7 @@ Version 3.4: In Development
 
 ### That's all for now!
 
-Please subscribe to our [youtube channel](#)!
+Please subscribe to our [youtube channel](https://www.youtube.com/channel/UC1z_IsmfvD57ZvI-uwbhaqA)!
 
 ```python
 print("New Stuff Coming Soon!")
