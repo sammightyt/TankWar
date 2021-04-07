@@ -8,6 +8,7 @@ TankWars&trade; is currently in development. The Alpha stage will release on Apr
 
 Creation Date: March 23, 2021
 
+### User Tank
 Version 1.1: Tank drawn
 
 Version 1.2: Tank can move
@@ -15,6 +16,8 @@ Version 1.2: Tank can move
 Version 1.3: Tank can shoot with bugs
 
 Version 1.4: Shooting bugs fixed
+
+### Game Features
 
 Version 2.1: Start Screen added
 
@@ -32,13 +35,25 @@ Version 2.7: End message added
 
 Version 2.8: Badges Added
 
+### AI Tank
+
 Version 3.1: AI Tank Drawn
 
-Version 3.2: In Development
+Version 3.2: AI Movement added
 
-```js
-var aI = new Tank()
+Version 3.3: AI Collision added
+
+Version 3.4: In Development
+
+
+### That's all for now!
+
+Please subscribe to our [youtube channel](#)!
+
+```python
+print("New Stuff Coming Soon!")
 ```
+
 
 &copy; 2021 SamSur Programming
 
