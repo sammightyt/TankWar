@@ -244,7 +244,7 @@ Game.prototype.run = function () {
     this.aIManager.moveAI();
     this.aIManager2.moveAI();
 
-  }.bind(this), 100);
+  }.bind(this), 30);
 
 
 }

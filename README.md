@@ -17,7 +17,7 @@ Version 1.3: Tank can shoot with bugs
 
 Version 1.4: Shooting bugs fixed
 
-### Game Features
+***
 
 Version 2.1: Start Screen added
 
@@ -35,7 +35,7 @@ Version 2.7: End message added
 
 Version 2.8: Badges Added
 
-### AI Tank
+***
 
 Version 3.1: AI Tank Drawn
 
@@ -43,7 +43,7 @@ Version 3.2: AI Movement added
 
 Version 3.3: AI Collision added
 
-Version 3.4: In Development
+Version 3.4: Quality Improved
 
 
 ### That's all for now!
