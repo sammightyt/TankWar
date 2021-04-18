@@ -50,8 +50,8 @@ Version 3.4: Quality Improved
 
 Please subscribe to our [youtube channel](https://www.youtube.com/channel/UC1z_IsmfvD57ZvI-uwbhaqA)!
 
-```python
-print("New Stuff Coming Soon!")
+```js
+console.log("New Stuff Coming Soon!")
 ```
 
 

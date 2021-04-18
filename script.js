@@ -1,16 +1,18 @@
 var canvas = document.getElementById("holder");
 var ctx = canvas.getContext("2d");
-var stage = "version 3.3"
+var stage = "version 3.4"
 var game = new Game();
 var enemyX = game.tank.x;
 var enemyY = game.tank.y;
+
+
 
 function Tank(x, y, which) {
   this.x = x;
   this.y = y;
   this.bullets = [];
   this.tankimg = new Image();
-  this.tankimg.src = 'https://art.pixilart.com/8e7d871b88dbc81.gif';
+  this.tankimg.src = 'tank1.png';
   this.tankimg2 = new Image();
   this.tankimg2.src = "tankIN.png"
   this.ammo = 15;
@@ -34,19 +36,21 @@ Tank.prototype.draw = function () {
 
 }
 
+
+
 Tank.prototype.moveDown = function () {
-  this.y += 2;
+  this.y += 3;
 }
 
 Tank.prototype.moveRight = function () {
-  this.x += 2;
+  this.x += 3;
 }
 
 Tank.prototype.moveLeft = function () {
-  this.x -= 2;
+  this.x -= 3;
 }
 Tank.prototype.moveUp = function () {
-  this.y -= 2;
+  this.y -= 3;
 }
 
 
@@ -87,6 +91,7 @@ Tank.prototype.touchingwall = function () {
     this.hasCollided = true;
     if (this.health == 5) {
       message = "Don't Run Into Walls";
+			
     }
   }
 
@@ -97,6 +102,7 @@ Tank.prototype.touchingwall = function () {
     if (this.health == 5) {
       message = "Don't Run Into Walls";
     }
+		
   }
 
   if (this.x <= -16.75) {
@@ -106,6 +112,7 @@ Tank.prototype.touchingwall = function () {
     if (this.health == 5) {
       message = "Don't Run Into Walls";
     }
+		
   }
 
   if (this.x >= 245) {
@@ -115,6 +122,7 @@ Tank.prototype.touchingwall = function () {
     if (this.health == 5) {
       message = "Don't Run Into Walls";
     }
+		
   }
 }
 
@@ -241,10 +249,25 @@ Game.prototype.run = function () {
       clearInterval(this.interval2)
     }
 
+		if(this.aI != null){
+
+		if(this.aI.health <= 0){
+			this.aI = null;
+		}
+
+		}
+
+    if(this.aI2 != null){
+
+		if(this.aI2.health <= 0){
+			this.aI2 = null;
+		}
+		}
+
     this.aIManager.moveAI();
     this.aIManager2.moveAI();
 
-  }.bind(this), 30);
+  }.bind(this), 80);
 
 
 }
