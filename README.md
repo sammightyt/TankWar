@@ -45,6 +45,8 @@ Version 3.3: AI Collision added
 
 Version 3.4: Quality Improved
 
+Version 3.5: Bullet Collision added
+
 
 ### That's all for now!
 
