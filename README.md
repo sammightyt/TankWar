@@ -1,6 +1,6 @@
 # TankWars&trade; Development
 
-TankWars&trade; is currently in development. The Alpha stage will release on April 9th as stated by SamSur Programming, the developer. For more info, contact either [suryabhattiprol](https://replit.com/@suryabhattiprol) or [sammightyt](https://replit.com/@sammightyt).
+TankWars&trade; is currently in development. The Beta stage will release on May 5th as stated by SamSur Programming, the developer. For more info, contact either [suryabhattiprol](https://replit.com/@suryabhattiprol) or [sammightyt](https://replit.com/@sammightyt).
 
 ***
 
